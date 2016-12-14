@@ -1,5 +1,11 @@
 # mb-loader
 CSS3 Loader
 
-## CSS3 mb-loaders
-Hover over individual borders for some fun
+mb-loader is written using CSS3 modules.
+You can do hover over individual borders for some fun.
+
+## Installing
+You can also use the standalone mb-loader. For example:
+<link href="mb-loader.v1.css" rel="stylesheet" />
+For the minified version:
+<link href="mb-loader.v1min.css" rel="stylesheet" />
