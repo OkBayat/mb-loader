@@ -1,0 +1,64 @@
+﻿/*
+ * mb-loader 1 Dec 2016 by Mohammad Bayat
+ * https://github.com/OkBayat/mb-loader
+ * 
+ *
+ * Email: Ok.Bayat@hotmail.com
+ * Github: https://github.com/okbayat
+ * Linkedin: https://ir.linkedin.com/in/okbayat
+*/
+.mb-loader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mb-loader * {
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 4px;
+    border: 1px solid transparent;
+    height: 100%;
+}
+.mb-loader > div {
+    width: 100px;
+    height: 100px;
+}
+.mb-loader *:hover {
+    animation-play-state: paused;
+}
+
+.mb-1 * {animation: mb-loader-right 4s infinite;}
+.mb-2 * {animation: mb-loader-right 4s infinite linear}
+.mb-3 * {animation: mb-loader-left 4s infinite;}
+.mb-4 * {animation: mb-loader-left 4s infinite linear}
+
+@keyframes mb-loader-right {
+    0% {
+        transform: rotate(0deg);
+        border-top-color: #34a853;
+    }
+    50% {
+        transform: rotate(180deg);
+        border-top-color: rgba(50,168,83,.5);
+    }
+    100% {
+        transform: rotate(360deg);
+        border-top-color: #34a853;
+    }
+}
+@keyframes mb-loader-left {
+    0% {
+        transform: rotate(0deg);
+        border-top-color: #ea4335;
+    }
+    50% {
+        transform: rotate(-180deg);
+        border-top-color: rgba(234,67,53,.1);
+    }
+    100% {
+        transform: rotate(-360deg);
+        border-top-color: #ea4335;
+    }
+}
