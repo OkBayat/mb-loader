@@ -51,5 +51,4 @@ You can control size of loader, like:
  </div>
 ```
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Image of Yaktocat](https://github.com/OkBayat/mb-loader/blob/master/mb-loader.v1.PNG)
