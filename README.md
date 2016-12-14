@@ -14,7 +14,7 @@ For the minified version:
 <link href="mb-loader.v1min.css" rel="stylesheet" />
 ```
 ##Usage
-By adding each dive will improve your loader. Fore example:
+By adding each div will improve your loader. Fore example:
 ```html
 <div class="mb-loader mb-1">
     <div>
@@ -51,5 +51,5 @@ You can control size of loader, like:
  </div>
 ```
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
