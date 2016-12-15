@@ -1,0 +1,25 @@
+﻿body {
+    
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    width: 800px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+li {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden
+}
