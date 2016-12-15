@@ -28,6 +28,7 @@ And you can using Js version too. for example:
 ```
 
 ## Usage
+### HTML
 By adding each div will improve your loader. Fore example:
 ```html
 <div class="mb-loader mb-1">
@@ -64,5 +65,18 @@ You can control size of loader, like:
      </div>
  </div>
 ```
-
+### AngularJs
+```html
+<div mb-loader
+     mb-type="4"
+     mb-count="13"
+     mb-size="50"></li>
+```
+### JavaScript
+```html
+<div class="mb-loader mb-1"
+     mb-count="30"
+     mb-size="50"></div>
+```
+## Example
 ![Image of Yaktocat](https://github.com/OkBayat/mb-loader/blob/master/mb-loader.v1.PNG)
