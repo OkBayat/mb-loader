@@ -2,7 +2,7 @@
 CSS3 Loader
 
 mb-loader is written using CSS3 modules.
-You can do hover over individual borders for some fun.
+Instead of using gif in the HTML you can use mb-loader to make website visitors having fun by hovering the mouse over individual borders.
 
 ## Installing
 You can also use the standalone mb-loader. For example:
