@@ -7,6 +7,7 @@ Instead of using gif in the HTML you can use mb-loader to make website visitors 
 > You can use with AngularJs v1 or javaScript.
 
 ## Installing
+### HTML
 You can also use the standalone mb-loader. For example:
 ```html
 <link href="mb-loader.v1.css" rel="stylesheet" />
@@ -15,7 +16,18 @@ For the minified version:
 ```html
 <link href="mb-loader.v1min.css" rel="stylesheet" />
 ```
-##Usage
+### AngularJs
+If you are using AngularJs v1, you can use mb-loader directive too. for example:
+```html
+<link href="mbLoaderApp.v1.js" rel="stylesheet" />
+```
+### AngularJs
+And you can using Js version too. for example:
+```html
+<link href="mbLoader.v1.js" rel="stylesheet" />
+```
+
+## Usage
 By adding each div will improve your loader. Fore example:
 ```html
 <div class="mb-loader mb-1">
