@@ -19,12 +19,12 @@ For the minified version:
 ### AngularJs
 If you are using AngularJs v1, you can use mb-loader directive too. for example:
 ```html
-<link href="mbLoaderApp.v1.js" rel="stylesheet" />
+<script src="mbLoaderApp.v1.js"></script>
 ```
 ### JavaScript
 And you can using Js version too. for example:
 ```html
-<link href="mbLoader.v1.js" rel="stylesheet" />
+<script src="mbLoader.v1.js"></script>
 ```
 
 ## Usage
